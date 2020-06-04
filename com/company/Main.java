@@ -17,8 +17,9 @@ public class Main
         System.out.println(R.To_blok(key_3)+"  "+R.One_use(key_3)+"  "+R.GetTo_use(key_3));
 
         Tyrniket T = new Tyrniket();
-        System.out.println(T.tyrniket(key_1)+"  "+R.GetTo_use(key_1));
 
+        T.tyrniket(1);
+        
         R.Get_All_History();
         R.Get_History(key_1);
 

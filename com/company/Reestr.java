@@ -157,7 +157,7 @@ public class Reestr
     }
 
 
-    public int GetTupe(int key1)
+    public static int  GetTupe(int key1)
     {
         return LAcc.get(key1).Tupe;
     }
